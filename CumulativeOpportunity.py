@@ -2,7 +2,7 @@ import pandas as pd
 
 centroidsdf = pd.read_csv('./centroids.csv') #reading centriods file which includes names(or IDs) and opportunities on each centroid
 #in this example we use jobs as the opportunities and population to measure the weighted average accessibility for all centroids
-accessibilitydf = pd.DataFrame(columns=['centroids_name','PWA']) #creating an empty data frame for PWA 
+accessibilitydf = pd.DataFrame(columns=['','PWA']) #creating an empty data frame for PWA 
 source = "./traveltime_matrix.csv" #reading the OD matrix file which contains travel time between origins and destinations
 ttdf = pd.read_csv(source)
 
