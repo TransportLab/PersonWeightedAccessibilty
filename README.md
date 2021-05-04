@@ -1,4 +1,4 @@
-# PersonWeightedAccessibilty
+# Locational & Person Weighted Accessibilty
 Accessibility Code (Python)
 
 Calculating the accessibility is a way to measure the number of opportunities reachable in a specific time threshold. A person-weighted accessibility measure is the number of opportunities (jobs) at destinations reachable to the population at each origin. This index allows comparing the system-wide accessibility by a transit mode (Levinson et al., 2016). 
